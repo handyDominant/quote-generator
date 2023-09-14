@@ -1,0 +1,101 @@
+/* Импорт шрифта Roboto */
+@import url("./fonts/Roboto-Regular.ttf");
+
+/* Сброс стилей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* 'Roboto' в качестве основного шрифта, с фоллбэком на sans-serif */
+    font-style: normal;
+}
+
+/* Стили для <body> */
+body {
+    width: 1200px;
+    background-color: #837FB1;
+    /* Фоновый цвет для body */
+}
+
+/* Стили для заголовка <h1> внутри <div> */
+div h1 {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центрирование по горизонтали и вертикали */
+
+    color: #FFFFFF;
+    /* Цвет текста */
+}
+
+/* Стили для элемента с классом .front-img */
+.front-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центрирование по горизонтали и вертикали */
+
+    background-image: url(./image/Rectangle\ 1.png);
+    /* Фоновое изображение */
+    background-size: cover;
+    /* Масштабирование фонового изображения */
+    background-repeat: no-repeat;
+    /* Запрет повторения фонового изображения */
+    background-position: center center;
+    /* Выравнивание фонового изображения по центру */
+
+    width: 700px;
+    /* Ширина элемента */
+    height: 359px;
+    /* Высота элемента */
+    z-index: 2;
+    /* Задание слоя (z-index) */
+}
+
+/* Стили для элемента с классом .front-navigate-img */
+.front-navigate-img {
+    position: absolute;
+    top: 34%;
+    left: 33%;
+
+    background-image: url(./image/Group\ 14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 57px;
+    height: 13px;
+    z-index: 3;
+}
+
+/* Стили для элемента с классом .front-couter */
+.front-border {
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    z-index: 1;
+
+    background-image: url(./image/Rectangle\ 18.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 700px;
+    height: 360px;
+}
+
+/* Стили для элемента с классом .random-txt */
+.random-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центрирование по горизонтали и вертикали */
+
+    color: #FFFFFF;
+    /* Цвет текста */
+    z-index: 3;
+    /* Задание слоя (z-index) */
+}
